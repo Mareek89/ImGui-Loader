@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="picture">
+      <UniqueIdentifier>{53f8f5be-c2b4-4579-9262-8503b3126261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="font">
+      <UniqueIdentifier>{14565b35-9c70-4d05-aa66-aeef6edfaa2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="picture\products">
+      <UniqueIdentifier>{7101238f-4dab-44c5-8107-2ce2e31ce114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="picture\support">
+      <UniqueIdentifier>{d02d30fb-2905-4841-b770-de7b286dbcde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="picture\utils">
+      <UniqueIdentifier>{4829b200-c579-460e-a45d-41b39d1ee454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kdmapper">
+      <UniqueIdentifier>{18b4e2d6-c4bd-4f4c-8fb8-042d39ec524c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kdmapper\include">
+      <UniqueIdentifier>{786de083-6cde-461b-93ce-ed6eab4baab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver comm">
+      <UniqueIdentifier>{0c3f1162-e87f-4cca-8b09-df37f78bc339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="syscall">
+      <UniqueIdentifier>{0b874e4f-27f8-4e26-aa53-cfb87c455fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{a31743c8-fd2d-4143-a853-967b2d0833c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keyauth">
+      <UniqueIdentifier>{3c4678e7-9784-4ed4-92e1-af5bd12f5bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="injector">
+      <UniqueIdentifier>{b18f858f-23e5-4a69-9e4f-51eec52facfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="logo.h">
+      <Filter>picture</Filter>
+    </ClInclude>
+    <ClInclude Include="poppins.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="ico_font.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="roboto.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="user_circle.h">
+      <Filter>picture</Filter>
+    </ClInclude>
+    <ClInclude Include="apex_pic.h">
+      <Filter>picture\products</Filter>
+    </ClInclude>
+    <ClInclude Include="escape_from_pic.h">
+      <Filter>picture\products</Filter>
+    </ClInclude>
+    <ClInclude Include="fortnite_pic.h">
+      <Filter>picture\products</Filter>
+    </ClInclude>
+    <ClInclude Include="valorant_pic.h">
+      <Filter>picture\products</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_pic.h">
+      <Filter>picture\support</Filter>
+    </ClInclude>
+    <ClInclude Include="inject_pic.h">
+      <Filter>picture\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="security.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="native.h">
+      <Filter>syscall</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>syscall</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall.h">
+      <Filter>syscall</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>injector</Filter>
+    </ClInclude>
+    <ClInclude Include="mmap.h">
+      <Filter>injector</Filter>
+    </ClInclude>
+    <ClInclude Include="pubg_pic.h">
+      <Filter>picture\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdmapper\inlcude\intel_driver.hpp">
+      <Filter>kdmapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdmapper\inlcude\intel_driver_resource.hpp">
+      <Filter>kdmapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdmapper\inlcude\kdmapper.hpp">
+      <Filter>kdmapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdmapper\inlcude\nt.hpp">
+      <Filter>kdmapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdmapper\inlcude\portable_executable.hpp">
+      <Filter>kdmapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdmapper\inlcude\service.hpp">
+      <Filter>kdmapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdmapper\inlcude\utils.hpp">
+      <Filter>kdmapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\driver comm\alpc.h">
+      <Filter>driver comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\driver comm\message.h">
+      <Filter>driver comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>keyauth</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>keyauth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="syscall.cpp">
+      <Filter>syscall</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>injector</Filter>
+    </ClCompile>
+    <ClCompile Include="mmap.cpp">
+      <Filter>injector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kdmapper\intel_driver.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kdmapper\kdmapper.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kdmapper\portable_executable.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kdmapper\service.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kdmapper\utils.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\driver comm\alpc.cpp">
+      <Filter>driver comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="cpp.hint">
+      <Filter>keyauth</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\desktop.ico">
+      <Filter>keyauth</Filter>
+    </Image>
+    <Image Include="..\..\..\desktop.png">
+      <Filter>keyauth</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>keyauth</Filter>
+    </Image>
+    <Image Include="..\..\..\icon3.ico">
+      <Filter>keyauth</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="crash.asm">
+      <Filter>security</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="example_win32_directx11.rc">
+      <Filter>keyauth</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>keyauth</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>keyauth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
